@@ -34,13 +34,3 @@ part-2/   MLP, activations, losses, K-means
 ```
 
 Each part has a `main.py` (training and evaluation from the command line, for example `python main.py --method knn --task classification`) and the course's `test_ms*.py` structure tests. The dataset was provided by the course and is not included: place it at `data/features.npz` inside each part, or pass `--data_path`.
-
-## Team
-
-| Member | Part 1 | Part 2 |
-|---|---|---|
-| Jad Chahed Ouazzani | k-NN (classification and regression, L1/L2), logistic regression integration, report | — |
-| Riad Elhariry | Project structure, linear regression | Activations, MLP, training logic |
-| Sara Iraqi | Validation split and normalisation, softmax stability fix | Losses, K-means, data preparation |
-
-The full commit history of both parts is preserved.
